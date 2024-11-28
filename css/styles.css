@@ -1,0 +1,42 @@
+/* HEADER */
+
+header {
+    height: 150px;
+    width: 150px;
+    background-color: #134373;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.header_image {
+    border-radius: 70px;
+    height: 150px;
+    width: 150px;
+}
+
+.header_dropdown_image {
+    height: 30px;
+    width: 40px;
+}
+
+.image_container {
+    align-self: center;
+}
+
+.boton_container {
+    border-color: red;
+}
+
+/*----*/
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../fonts/coolvetica_rg.otf') format('woff2'),
+         url('../fonts/coolvetica_rg.woff') format('woff'),
+         url('../fonts/coolvetica_rg.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'coolvetica', sans-serif;
+}
