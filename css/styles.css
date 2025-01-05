@@ -1,18 +1,18 @@
 /* HEADER */
 
-header {
+/* header {
     height: 150px;
     width: 150px;
     background-color: #134373;
     box-shadow: 5px 5px 10px gray;
 }
-
-.header_image {
+*/
+.image {
     border-radius: 70px;
     height: 150px;
     width: 150px;
 }
-
+/*
 .header_dropdown_image {
     height: 30px;
     width: 40px;
@@ -24,7 +24,7 @@ header {
 
 .boton_container {
     border-color: red;
-}
+} */
 
 /*----*/
 
@@ -39,4 +39,12 @@ header {
 
 body {
     font-family: 'coolvetica', sans-serif;
+}
+
+.custom_margin {
+    margin-top: 200px;
+}
+
+.text_main_size {
+    font-size: 30px;
 }
